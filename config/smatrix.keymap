@@ -124,10 +124,10 @@
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp UP_ARROW          &kp LEFT              &kp RIGHT       &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp DOWN_ARROW        &kp LS(COMMA)         &kp LS(PERIOD)  &kp LS(RIGHT_BRACKET)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LS(QUESTION))  &kp LS(LEFT_BRACKET)  &trans          &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans                &trans                &trans          &trans                 &trans  &trans
             >;
         };
 
