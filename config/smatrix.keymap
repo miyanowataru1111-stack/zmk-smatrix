@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-macro";
             label = "Win Teams Mic Mute";
             #binding-cells = <0>;
-            bindings = <>;
+            bindings = <&kp A &kp B>;
         };
 
         comma_en: commaenter {
