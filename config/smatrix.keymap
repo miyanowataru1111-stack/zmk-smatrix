@@ -119,19 +119,19 @@
 
         layer_1 {
             bindings = <
-&trans  &kp LG(S)  &kp LG(Z)       &kp LG(V)  &kp LG(X)             &trans                                  &kp UP_ARROW       &kp LEFT              &kp RIGHT   &kp LS(SLASH)          &trans  &trans
-&trans  &kp LG(A)  &kp LS(LC(N8))  &trans     &kp LG(C)             &trans                                  &kp DOWN_ARROW     &comma_en             &period_en  &kp LS(RIGHT_BRACKET)  &trans  &trans
-&trans  &trans     &trans          &trans     &kp LS(LC(NUMBER_9))  &kp LS(LC(NUMBER_1))  &trans    &trans  &kp LC(LS(SLASH))  &kp LS(LEFT_BRACKET)  &trans      &trans                 &trans  &trans
-&trans  &trans     &trans          &trans     &trans                &trans                                  &trans             &trans                &trans      &trans                 &trans  &trans
+&trans  &trans     &kp LG(S)       &kp LG(Z)       &kp LG(V)             &kp LG(X)                               &kp UP_ARROW       &kp LEFT              &kp RIGHT   &kp LS(SLASH)          &kp LS(LC(NUMBER_3))  &trans
+&trans  &kp LG(A)  &kp LS(LC(N8))  &kp LS(LC(N7))  &kp LS(LC(NUMBER_2))  &kp LG(C)                               &kp DOWN_ARROW     &comma_en             &period_en  &kp LS(RIGHT_BRACKET)  &trans                &trans
+&trans  &trans     &trans          &trans          &kp LS(LC(NUMBER_9))  &kp LS(LC(NUMBER_1))  &trans    &trans  &kp LC(LS(SLASH))  &kp LS(LEFT_BRACKET)  &trans      &trans                 &trans                &trans
+&trans  &trans     &trans          &trans          &trans                &trans                                  &trans             &trans                &trans      &trans                 &trans                &trans
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp MINUS   &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PLUS    &kp LC(N5)        &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp PERCENT
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(N0)  &kp LC(N9)        &trans            &trans            &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans      &trans            &trans            &trans            &trans            &trans
             >;
         };
     };
