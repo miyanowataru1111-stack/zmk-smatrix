@@ -111,7 +111,7 @@
 &kp Q             &kp W         &kp E     &kp R               &kp T           &kp Y                          &kp ENTER        &kp I           &kp O       &kp P      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp A             &kp S         &kp D     &kp F               &kp G           &kp H                          &kp J            &kp K           &kp L       &kp SEMI   &kp SINGLE_QUOTE  &kp BACKSLASH
 &kp LEFT_CONTROL  &kp Z         &kp X     &kp C               &kp V           &kp B        &trans    &trans  &kp M            &kp COMMA       &kp PERIOD  &kp SLASH  &kp MINUS         &kp UP_ARROW
-&kp ESC           &kp LEFT_ALT  &kp LGUI  &mt LEFT_SHIFT TAB  &kp LANGUAGE_1  &lt 2 SPACE                    &lt 1 BACKSPACE  &kp LANGUAGE_2  &mkp RCLK   &kp LEFT   &kp RIGHT_ARROW   &kp DOWN_ARROW
+&kp ESC           &kp LEFT_ALT  &kp LGUI  &mt LEFT_SHIFT TAB  &kp LANGUAGE_2  &lt 2 SPACE                    &lt 1 BACKSPACE  &kp LANGUAGE_1  &mkp RCLK   &kp LEFT   &kp RIGHT_ARROW   &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_scrl SCRL_UP SCRL_DOWN>;
@@ -132,15 +132,6 @@
 &trans  &kp LG(A)  &trans     &trans     &trans     &kp LG(C)                    &kp PLUS    &kp LC(N5)        &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp PERCENT
 &trans  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &kp LC(N0)  &kp LC(N9)        &trans            &trans            &trans            &trans
 &trans  &trans     &trans     &trans     &trans     &trans                       &trans      &trans            &trans            &trans            &trans            &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
