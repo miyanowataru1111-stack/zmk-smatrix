@@ -88,10 +88,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E     &kp R               &kp T      &kp Y                        &kp BACKSPACE  &kp I      &kp O       &kp P      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp A             &kp S         &kp D     &kp F               &kp G      &kp H                        &kp J          &kp K      &kp L       &kp SEMI   &kp SINGLE_QUOTE  &kp BACKSLASH
-&kp LEFT_CONTROL  &kp Z         &kp X     &kp C               &kp V      &kp B      &trans    &trans  &kp M          &kp COMMA  &kp PERIOD  &kp SLASH  &kp MINUS         &kp UP_ARROW
-&kp ESC           &kp LEFT_ALT  &kp LGUI  &mt LEFT_SHIFT TAB  &kp SPACE  &lt 2 TAB                    &lt 1 ESCAPE   &kp ENTER  &mkp RCLK   &kp LEFT   &kp RIGHT_ARROW   &kp DOWN_ARROW
+&kp Q             &kp W         &kp E     &kp R           &kp T      &kp ENTER                    &kp BACKSPACE  &kp I      &kp O       &kp P      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp A             &kp S         &kp D     &kp F           &kp G      &kp H                        &kp J          &kp K      &kp L       &kp SEMI   &kp SINGLE_QUOTE  &kp BACKSLASH
+&kp LEFT_CONTROL  &kp Z         &kp X     &kp C           &kp V      &kp B      &trans    &trans  &kp M          &kp COMMA  &kp PERIOD  &kp SLASH  &kp MINUS         &kp UP_ARROW
+&kp Y             &kp LEFT_ALT  &kp LGUI  &kp LEFT_SHIFT  &kp SPACE  &lt 2 TAB                    &lt 1 ESCAPE   &kp SPACE  &mkp RCLK   &kp LEFT   &kp RIGHT_ARROW   &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_scrl SCRL_UP SCRL_DOWN>;
@@ -108,10 +108,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans     &kp LG(S)  &kp LG(Z)  &kp LG(V)  &kp LG(X)                    &kp MINUS         &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans
-&trans  &kp LG(A)  &trans     &trans     &trans     &kp LG(C)                    &kp LS(LC(SEMI))  &kp LC(N5)        &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp LS(LC(N5))
-&trans  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &kp LC(N0)        &kp LC(N9)        &trans            &trans            &trans            &trans
-&trans  &trans     &trans     &trans     &trans     &trans                       &trans            &trans            &trans            &trans            &trans            &trans
+&trans  &trans     &kp LG(S)  &kp LG(Z)  &kp LG(V)  &kp LG(X)                    &kp MINUS       &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans
+&trans  &kp LG(A)  &trans     &trans     &trans     &kp LG(C)                    &kp LS(PERIOD)  &kp LC(N5)        &kp LC(NUMBER_6)  &kp LC(N7)        &kp LC(N8)        &kp LS(LC(N5))
+&trans  &trans     &trans     &trans     &trans     &trans     &trans    &trans  &kp LC(N0)      &kp LC(N9)        &trans            &trans            &trans            &trans
+&trans  &trans     &trans     &trans     &trans     &trans                       &trans          &trans            &trans            &trans            &trans            &trans
             >;
         };
     };
