@@ -99,10 +99,10 @@
 
         layer_1 {
             bindings = <
-&trans     &kp LG(S)      &kp LG(Z)       &kp LG(V)          &kp LG(X)       &kp LS(LG(NUMBER_4))                    &kp F10                &kp UP_ARROW       &kp LEFT    &kp RIGHT  &kp LS(SLASH)         &kp LS(LC(NUMBER_3))
-&kp LG(A)  &kp LG(LS(Z))  &kp LS(LC(N9))  &kp DOUBLE_QUOTES  &kp LG(C)       &kp LG(F)                               &kp F7                 &kp DOWN           &period_en  &comma_en  &kp LS(LC(NUMBER_1))  &kp LS(BACKSLASH)
-&trans     &trans         &trans          &trans             &kp LS(LC(N0))  &kp LS(LC(N7))        &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(LC(SLASH))  &trans      &trans     &trans                &trans
-&trans     &trans         &trans          &trans             &trans          &trans                                  &trans                 &trans             &trans      &trans     &trans                &trans
+&trans     &kp LG(S)      &kp LG(Z)       &kp LG(V)         &kp LG(X)       &kp LS(LG(NUMBER_4))                    &kp F10                &kp UP_ARROW       &kp LEFT    &kp RIGHT  &kp LS(SLASH)         &kp LS(LC(NUMBER_3))
+&kp LG(A)  &kp LG(LS(Z))  &kp LS(LC(N9))  &kp SINGLE_QUOTE  &kp LG(C)       &kp LG(F)                               &kp F7                 &kp DOWN           &period_en  &comma_en  &kp LS(LC(NUMBER_1))  &kp LS(BACKSLASH)
+&trans     &trans         &trans          &trans            &kp LS(LC(N0))  &kp LS(LC(N7))        &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(LC(SLASH))  &trans      &trans     &trans                &trans
+&trans     &trans         &trans          &trans            &trans          &trans                                  &trans                 &trans             &trans      &trans     &trans                &trans
             >;
         };
 
