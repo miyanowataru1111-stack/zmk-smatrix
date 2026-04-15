@@ -88,39 +88,21 @@
 
         default_layer {
             bindings = <
-&kp Q           &kp W             &kp E         &kp R    &kp T      &mt LEFT_SHIFT Y                     &kp U      &kp I      &kp O          &kp P      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp A           &kp S             &kp D         &kp F    &kp G      &kp H                                &kp J      &kp K      &kp L          &kp SEMI   &kp SINGLE_QUOTE  &kp BACKSLASH
-&kp LEFT_GUI    &kp Z             &kp X         &kp C    &kp V      &kp B              &trans    &trans  &kp M      &kp COMMA  &kp PERIOD     &kp SLASH  &kp MINUS         &kp UP_ARROW
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp TAB  &kp SPACE  &kp RIGHT_CONTROL                    &kp LANG1  &kp ENTER  &kp BACKSPACE  &kp LEFT   &kp RIGHT_ARROW   &kp DOWN_ARROW
+&kp Q           &kp W             &kp E         &kp R      &kp T    &kp Y                                &kp U      &kp I      &kp O          &kp P      &kp LEFT_BRACKET     &kp RIGHT_BRACKET
+&kp A           &kp S             &kp D         &kp F      &kp G    &kp H                                &kp J      &kp K      &kp L          &kp SEMI   &kp SINGLE_QUOTE     &kp BACKSLASH
+&mo 1           &kp Z             &kp X         &kp C      &kp V    &kp B              &trans    &trans  &kp M      &kp COMMA  &kp PERIOD     &kp SLASH  &kp INTERNATIONAL_1  &kp UP_ARROW
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE  &kp TAB  &kp RIGHT_CONTROL                    &kp LANG1  &kp ENTER  &kp BACKSPACE  &kp LEFT   &kp RIGHT_ARROW      &kp DOWN_ARROW
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_scrl SCRL_UP SCRL_DOWN>;
         };
 
-        layer_1 {
-            bindings = <
-&trans     &kp LG(S)      &kp LG(Z)       &kp LG(V)         &kp LG(X)       &kp LEFT_SHIFT                    &kp F10                &kp LS(UP_ARROW)   &kp LS(LEFT)  &kp LS(RIGHT)  &kp LS(SLASH)         &kp LS(LC(NUMBER_3))
-&kp LG(A)  &kp LG(LS(Z))  &kp LS(LC(N9))  &kp SINGLE_QUOTE  &kp LG(C)       &kp LG(F)                         &kp F7                 &kp LS(DOWN)       &period_en    &comma_en      &kp LS(LC(NUMBER_1))  &kp LS(BACKSLASH)
-&trans     &trans         &trans          &trans            &kp LS(LC(N0))  &kp LS(LC(N7))  &trans    &trans  &kp LS(RIGHT_BRACKET)  &kp LS(LC(SLASH))  &trans        &trans         &trans                &trans
-&trans     &trans         &trans          &trans            &trans          &trans                            &trans                 &trans             &trans        &trans         &trans                &trans
-            >;
-        };
-
-        layer_2 {
+        layer_number {
             bindings = <
 &trans  &trans  &kp LEFT_CONTROL  &trans          &trans  &trans                    &kp MINUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans
 &trans  &trans  &trans            &kp LEFT_SHIFT  &trans  &trans                    &kp PERIOD  &kp N5        &kp NUMBER_6  &kp N7        &kp N8        &kp LS(LC(N5))
 &trans  &trans  &trans            &trans          &trans  &trans  &trans    &trans  &kp N0      &kp N9        &trans        &trans        &trans        &trans
 &trans  &trans  &trans            &trans          &trans  &trans                    &trans      &trans        &trans        &trans        &trans        &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
